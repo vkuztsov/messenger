@@ -1,0 +1,8 @@
+package org.securemessenger.server.models.network;
+
+public enum RType {
+    MESSAGE, ERROR, AUTHORIZATION, AUTHENTICATION,
+    REGISTRATION, SESSION_KEY, GET_MESSAGES,
+    SERVER_MESSAGE, ACCOUNT_DATA, USER_DATA,
+    CONTACTS, ADD_CONTACT, EXIT
+}
